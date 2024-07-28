@@ -5,6 +5,8 @@ import img6 from "./assets/download (2).jpeg"
 import img7 from "./assets/download (3).jpeg"
 import img8 from "./assets/download (4).jpeg"
 import img9 from "./assets/download.jpeg"
+import img10 from "./assets/images1.jpeg"
+import img11 from "./assets/images2.jpeg"
 
 function App() {
 
@@ -178,14 +180,36 @@ function App() {
         </div>
       </section >
 
-      {/* <!-- Testimonials --> */}
+      {/* Asked Questions */}
 
-      < section class="client" >
+      <section className='asked'>
+        <span className='ques'>
+          <h1>Frequently </h1>
+          <h1>Asked Questions (FAQ)</h1>
+        </span>
         <div>
-          <h3>Client Testomonials & Success Stories</h3>
-
+          <ul>
+            <li>&#9733;&nbsp; What types of cases do you handle?</li>
+            <li>&#9733;&nbsp;  How can I schedule a consultation?</li>
+            <li>&#9733;&nbsp;  What sets your law firm apart from others?</li>
+            <li>&#9733;&nbsp;  How do you charge for your services?</li>
+            <li>&#9733;&nbsp;  How long will my case take to resolve?</li>
+          </ul>
+          <img src={img10} alt="old aunty" />
         </div>
-      </section >
+      </section>
+
+      {/* subscribe */}
+
+      <section className='subs'>
+        <h1>Legal Insights & Updates</h1>
+        <div class="grid-container">
+          <img class="grid-item tall" src={img11} />
+          <div class="grid-item short">Box 2</div>
+          <div class="grid-item short">Box 3</div>
+          <div class="grid-item full-width">Box 4</div>
+        </div>
+      </section>
 
     </>
   )
